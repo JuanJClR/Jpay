@@ -127,7 +127,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: GoogleFonts.montserrat(
                           textStyle: TextStyle(
                             color: Colors.white,
-                            fontWeight: FontWeight.w300,
+                            fontWeight: FontWeight.normal,
                             fontSize: 18,
                           ),
                         ),
