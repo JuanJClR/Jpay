@@ -178,7 +178,7 @@ class ConsultaPage extends StatelessWidget {
                   primary: Colors.black,
                 ),
                 child: Text(
-                  'Cerrar sesión',
+                  'Volver',
                   style: GoogleFonts.montserrat(
                     textStyle: TextStyle(
                       fontSize: 18,
