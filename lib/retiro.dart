@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class DepositarPage extends StatefulWidget {
+class RetiroPage extends StatefulWidget {
   @override
-  _DepositarPageState createState() => _DepositarPageState();
+  _RetiroPageState createState() => _RetiroPageState();
 }
 
-class _DepositarPageState extends State<DepositarPage> {
+class _RetiroPageState extends State<RetiroPage> {
   String? _selectedOption;
 
   @override
@@ -26,7 +26,7 @@ class _DepositarPageState extends State<DepositarPage> {
           ),
           SizedBox(height: 250),
           Text(
-            'Depositar dinero',
+            'Retirar dinero',
             style: GoogleFonts.montserrat(
               textStyle: TextStyle(
                 fontSize: 40,
@@ -106,7 +106,7 @@ class _DepositarPageState extends State<DepositarPage> {
                           items: [
                             DropdownMenuItem<String>(
                               child: Text(
-                                'Tarjeta de crédito',
+                                'PayPal',
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                     fontSize: 18,
@@ -114,7 +114,7 @@ class _DepositarPageState extends State<DepositarPage> {
                                   ),
                                 ),
                               ),
-                              value: 'Tarjeta de crédito',
+                              value: 'PayPal',
                             ),
                             DropdownMenuItem<String>(
                               child: Text(
@@ -159,7 +159,7 @@ class _DepositarPageState extends State<DepositarPage> {
                         ),
                       ),
                       child: Text(
-                        'Iniciar',
+                        'Continuar',
                         style: GoogleFonts.montserrat(
                           textStyle: TextStyle(
                             color: Colors.white,

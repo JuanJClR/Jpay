@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:jpay/depositar.dart';
+import 'package:jpay/consulta.dart';
+import 'package:jpay/deposito.dart';
+import 'package:jpay/retiro.dart';
 
 import 'login.dart';
 import 'menu.dart';
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DepositarPage(),
+      home: ConsultaPage(),
     );
   }
 }
