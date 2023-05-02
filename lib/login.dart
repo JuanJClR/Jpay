@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'menu.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -134,6 +135,10 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       onPressed: () {
                         // Acción a realizar al presionar el botón
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => MenuPage())
+                        );
                       },
                     ),
                   ),

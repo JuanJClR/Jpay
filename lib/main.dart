@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:jpay/consulta.dart';
-import 'package:jpay/deposito.dart';
-import 'package:jpay/envio.dart';
-import 'package:jpay/retiro.dart';
-
+import 'consulta.dart';
+import 'deposito.dart';
+import 'envio.dart';
+import 'retiro.dart';
 import 'login.dart';
 import 'menu.dart';
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RetiroPage(),
+      home: LoginPage(),
     );
   }
 }

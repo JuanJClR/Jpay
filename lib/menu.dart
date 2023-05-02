@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:jpay/login.dart';
+import 'consulta.dart';
+import 'retiro.dart';
+import 'envio.dart';
+import 'deposito.dart';
 
 class MenuPage extends StatelessWidget {
   @override
@@ -47,6 +52,10 @@ class MenuPage extends StatelessWidget {
             ),
             onPressed: () {
               // Acción a realizar al presionar el botón
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ConsultaPage())
+              );
             },
           ),
           SizedBox(height: 10),
@@ -72,6 +81,10 @@ class MenuPage extends StatelessWidget {
                 ),
                 onPressed: () {
                   // Acción a realizar al presionar el botón
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => DepositoPage())
+                  );
                 },
               ),
             ],
@@ -96,6 +109,10 @@ class MenuPage extends StatelessWidget {
             ),
             onPressed: () {
               // Acción a realizar al presionar el botón
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => EnvioPage())
+              );
             },
           ),
           SizedBox(height: 10),
@@ -118,6 +135,10 @@ class MenuPage extends StatelessWidget {
             ),
             onPressed: () {
               // Acción a realizar al presionar el botón
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => RetiroPage())
+              );
             },
           ),
           SizedBox(height: 10),
@@ -140,6 +161,10 @@ class MenuPage extends StatelessWidget {
               ),
               onPressed: () {
                 // Acción a realizar al presionar el botón
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginPage())
+              );
               },
             ),
           ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:jpay/menu.dart';
 
 class DepositoPage extends StatefulWidget {
   @override
@@ -180,6 +181,11 @@ class _DepositoPageState extends State<DepositoPage> {
               ),
               onPressed: () {
                 // Acción a realizar al presionar el botón
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>   MenuPage())
+                );
+
               },
             ),
           ),

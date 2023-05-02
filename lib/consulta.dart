@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:jpay/menu.dart';
 
 class ConsultaPage extends StatelessWidget {
   @override
@@ -43,7 +44,7 @@ class ConsultaPage extends StatelessWidget {
                 ),
               ),
               child: TextField(
-                enabled: true,
+                enabled: false,
                 decoration: InputDecoration(
                   border: InputBorder.none,
                 ),
@@ -188,6 +189,10 @@ class ConsultaPage extends StatelessWidget {
                 ),
                 onPressed: () {
                   // Acción a realizar al presionar el botón
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MenuPage())
+                  );
                 },
               ),
             ),
