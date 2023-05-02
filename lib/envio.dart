@@ -36,103 +36,103 @@ class _EnvioPageState extends State<EnvioPage> {
               ),
             ),
             SizedBox(height: 40),
-                    Container(
-                      width: MediaQuery.of(context).size.width / 1.30,
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.black,
-                          width: 1.0,
-                        ),
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 10),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            TextField(
-                              style: GoogleFonts.montserrat(
-                                textStyle: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w300,
-                                ),
-                              ),
-                              decoration: InputDecoration(
-                                hintText: 'Monto',
-                                hintStyle: GoogleFonts.montserrat(
-                                  textStyle: TextStyle(
-                                    color:Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w300,
-                                  ),
-                                ),
-                                border: InputBorder.none,
-                              ), 
-                            ),
-                          ]
-                        )
-                      )
-                    ),
-            SizedBox(height: 10),
-                    Container(
-                      width: MediaQuery.of(context).size.width / 1.30,
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.black,
-                          width: 1.0,
-                        ),
-                        borderRadius: BorderRadius.circular(6),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 10),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            TextField(
-                              style: GoogleFonts.montserrat(
-                                textStyle: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w300,
-                                ),
-                              ),
-                              decoration: InputDecoration(
-                                hintText: 'Cuenta',
-                                hintStyle: GoogleFonts.montserrat(
-                                  textStyle: TextStyle(
-                                    color:Colors.black,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w300,
-                                  ),
-                                ),
-                                border: InputBorder.none,
-                              ), 
-                            ),
-                          ]
-                        )
-                      )
-                    ),
-            SizedBox(height: 10),
-            ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        padding: EdgeInsets.symmetric(horizontal: 50, vertical: 19),
-                        primary: Colors.black,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(25),
+            Container(
+              width: MediaQuery.of(context).size.width / 1.30,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.black,
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextField(
+                      style: GoogleFonts.montserrat(
+                        textStyle: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
-                      child: Text(
-                        'Continuar',
-                        style: GoogleFonts.montserrat(
+                      decoration: InputDecoration(
+                        hintText: 'Monto',
+                        hintStyle: GoogleFonts.montserrat(
                           textStyle: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.normal,
+                            color:Colors.black,
                             fontSize: 18,
+                            fontWeight: FontWeight.w300,
                           ),
                         ),
+                        border: InputBorder.none,
+                      ), 
+                    ),
+                  ]
+                )
+              )
+            ),
+            SizedBox(height: 10),
+            Container(
+              width: MediaQuery.of(context).size.width / 1.30,
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Colors.black,
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextField(
+                      style: GoogleFonts.montserrat(
+                        textStyle: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w300,
+                        ),
                       ),
-                      onPressed: () {
-                        // Acción a realizar al presionar el botón
-                      },
+                      decoration: InputDecoration(
+                        hintText: 'Cuenta',
+                        hintStyle: GoogleFonts.montserrat(
+                          textStyle: TextStyle(
+                            color:Colors.black,
+                            fontSize: 18,
+                            fontWeight: FontWeight.w300,
+                          ),
+                        ),
+                        border: InputBorder.none,
+                      ), 
+                    ),
+                  ]
+                )
+              )
+            ),
+            SizedBox(height: 10),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 19),
+                primary: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(25),
+                ),
+              ),
+              child: Text(
+                'Continuar',
+                style: GoogleFonts.montserrat(
+                  textStyle: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.normal,
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+              onPressed: () {
+                // Acción a realizar al presionar el botón
+              },
              ),
             Spacer(),
             Align(
